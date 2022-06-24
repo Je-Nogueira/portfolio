@@ -160,7 +160,7 @@ color: rgb(5, 111, 177);
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
-  color: rgb(0, 0, 255);
+  color: black;
 }
 
 .projects .project{
@@ -183,6 +183,8 @@ color: rgb(5, 111, 177);
   max-width: 400px;
   margin: 20px auto 0;
   line-height: 25px;
+  padding-bottom: 20px;
+  text-align: justify;
 }
 
 .projects .project:nth-child(1){
@@ -191,6 +193,16 @@ color: rgb(5, 111, 177);
 
 .projects .project:nth-child(2){
   background-color: lightpink;
+}
+
+.project .project-info .btn-to-view{
+  font-weight: 500;
+  font-size: 2.5rem;
+  align-self: flex-start;
+}
+
+.project .project-info .btn-to-view:hover{
+  font-weight: 700;
 }
 
 @media(max-width: 425px){
